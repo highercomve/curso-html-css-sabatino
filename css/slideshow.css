@@ -1,0 +1,64 @@
+.slideshow {
+	position: relative;
+	height: 400px;
+}
+
+.slideshow .slideshow-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 940px;
+	height: 400px;
+	background-color: #F0F0F0;
+}
+
+.slideshow .slideshow-content .slide {
+	position: absolute;
+	padding: 60px;
+}
+
+
+.slideshow .navigation a {
+	position: absolute;
+	z-index: 1000;
+	top: 50%;
+	margin-top: -20px;
+	font-family: helvetica;
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: rgba(0,0,0, 0.7);
+	color: white;
+	text-decoration: none;
+	font-size: 32px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.slideshow .navigation .left {
+	left: 10px;
+	right: auto;
+}
+
+.slideshow .navigation .right {
+	right: 10px;
+	left: auto;
+}
+
+.slideshow .pagination {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.slideshow .pagination a {
+	background-color: white;
+	border: 1px solid #DADADA;
+	display: inline-block;
+	padding: 10px;
+}
+
+.slideshow .pagination .activeSlide {
+	background-color: #1728F7;
+	color: white;
+}
